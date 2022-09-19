@@ -1,4 +1,4 @@
-from PyQt5 import QtWidgets
+from PySide6 import QtWidgets
 
 # from controller_2 import MainWindow_controller
 from controller import MainWindow_controller

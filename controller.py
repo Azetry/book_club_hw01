@@ -1,12 +1,12 @@
-from PyQt5 import QtCore 
-from PyQt5.QtGui import QImage, QPixmap,QFont
-from PyQt5.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QApplication, 
+from PySide6 import QtCore 
+from PySide6.QtGui import QImage, QPixmap,QFont, QImageReader
+from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QApplication, 
                              QPushButton, QLabel, QFileDialog, QVBoxLayout, 
                              QLineEdit)
-from PyQt5.Qt import QSize, QImageReader
-# from PyQt5.QtWidgets import *
-# from PyQt5.QtCore import QThread, pyqtSignal
-from PyQt5.QtWidgets import  QMessageBox
+from PySide6.QtCore import QSize
+# from PySide6.QtWidgets import *
+# from PySide6.QtCore import QThread, pyqtSignal
+from PySide6.QtWidgets import  QMessageBox
 import time
 import os
 import sys

@@ -21,11 +21,11 @@ plt.show()
 cv.imwrite(out_path,img)  
 
 # import sys, time
-# from PyQt5.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QApplication, 
+# from PySide6.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QApplication, 
 #                              QPushButton, QLabel, QFileDialog, QVBoxLayout, 
 #                              QLineEdit)
-# from PyQt5.QtGui import QPixmap, QFont
-# from PyQt5.Qt import QSize, QImageReader
+# from PySide6.QtGui import QPixmap, QFont
+# from PySide6.Qt import QSize, QImageReader
 # #import qdarkstyle
 
 
@@ -53,7 +53,7 @@ cv.imwrite(out_path,img)
 #         tmp_layout.addWidget(self.result)
 #         layout.addLayout(tmp_layout)
 
-#         #self.setStyleSheet(qdarkstyle.load_stylesheet_pyqt5())
+#         #self.setStyleSheet(qdarkstyle.load_stylesheet_PySide6())
 
 #     def load_image(self):
 #         fname, _ = QFileDialog.getOpenFileName(self, 'Open File', 
